@@ -1,0 +1,19 @@
+.country-details {
+    .cd-title {
+        display: flex;
+        .cd-flag {
+            width: 40px;
+            margin-right: 20px;
+            position: relative;
+            top: -2px;
+        }
+        .cd-code {
+            color: rgb(32, 32, 151);
+            font-weight: bold;
+            margin-left: 5px;
+        }
+    }
+    .cd-list-title {
+        margin-bottom: 10px;
+    }
+}

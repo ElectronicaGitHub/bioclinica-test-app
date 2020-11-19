@@ -1,0 +1,70 @@
+[{
+    "type" : "text",
+    "key" : "textfield_key",
+    "label" : "Text field",
+    "defaultValue" : "hello",
+    "required" : true
+},
+{
+    "type" : "radio",
+    "key": "​radiofield_key​",
+    "label" : "Radio field",
+    "required" : true,
+    "options" : [
+        {
+            "label" : "Option 1",
+            "key" : "option_1"
+        },
+        {
+            "label": "Option 2",
+            "key": "option_2"
+        }
+    ]
+},
+{
+    "type": "select",
+    "key": "​selectfield_key​",
+    "label": "Select field",
+    "required": true,
+    "defaultValue": "option_1",
+    "options": [
+        {
+            "label": "Option 1",
+            "key": "option_1"
+        },
+        {
+            "label": "Option 2",
+            "key": "option_2"
+        },
+        {
+            "label": "Option 3",
+            "key": "option_3"
+        }
+    ]
+},
+{
+    "type": "​checkbox_single",
+    "key": "checkboxsingle_key",
+    "label": "Checkbox Single Label"
+},
+{
+    "type": "checkbox_multiple",
+    "key": "checkboxmultiple_key",
+    "label": "Select Multiple field",
+    "required": true,
+    "defaultValue": ["option_1"],
+    "options": [
+        {
+            "label": "Option 1",
+            "key": "option_1"
+        },
+        {
+            "label": "Option 2",
+            "key": "option_2"
+        },
+        {
+            "label": "Option 3",
+            "key": "option_3"
+        }
+    ]
+}]

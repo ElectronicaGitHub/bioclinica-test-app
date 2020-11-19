@@ -1,0 +1,40 @@
+.all-countries-list {
+    .ac-filters-panel {
+        margin-bottom: 30px;
+        .form-control {
+            display: inline-block;
+            margin-right: 10px;
+            width: 33%;
+            position: relative;
+            &.minified {
+                width: 20%;
+            }
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-size: 14px;
+                color: #444;
+            }
+            .custom-input {
+                height: 34px;
+                border-radius: 5px;
+                border: 1px solid #c7c4c4;
+                padding-left: 10px;
+                color: #777;
+                font-size: 15px;
+                width: calc(100% - 10px);
+            }
+            .tooltip {
+                position: absolute;
+                bottom: -18px;
+                font-size: 11px;
+                color: #444;
+            }
+            
+        }
+    }
+    .in-select-image {
+        width: 20px;
+        margin-right: 10px;
+    }
+}

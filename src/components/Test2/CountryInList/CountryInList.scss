@@ -1,0 +1,33 @@
+.country-in-list {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #f8f8f8;
+    background: white;
+    border-radius: 3px;
+    .c-flag-container {
+        display: inline-block;
+        min-width: 40px;
+        text-align: center;
+        .c-flag {
+            img {
+                height: 15px;
+                margin-right: 10px;
+                position: relative;
+                top: 2px;
+            }
+        }
+    }
+    .c-name {
+        color: #444;
+        font-size: 12px;
+    }
+    .c-code {
+        font-size: 10px;
+        color: rgb(52, 52, 187);
+        margin-left: 5px;
+    }
+    &:hover {
+        cursor: pointer;
+        background: #f1f1fd;
+    }
+}
